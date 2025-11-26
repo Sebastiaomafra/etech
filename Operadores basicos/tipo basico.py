@@ -22,3 +22,9 @@ dicionario = {"Nome": "Sebastiao"} # dic (dicionario)
 conjunto = {1, 2, 3, 4} # ser(conjunto)
 print (lista, tupla, dicionario, conjunto)
 print(f"Tipos: {type(lista)}, {type(tupla)}, {type(dicionario)}, {type(conjunto)}")
+
+# o comando input () e utilizado em python
+nome = input("Digite seu nome: ")
+print(f"Ola , {nome}! Bem-vindo ao Python! ")
+idade = int(input("Digite sua idade: "))
+print(f"Daqui a 5 anos, voce tera {idade+5} anos!")
